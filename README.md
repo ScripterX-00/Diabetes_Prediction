@@ -1,38 +1,47 @@
- Heart Disease Prediction using Machine Learning
-This project predicts the likelihood of a person having heart disease based on various medical attributes. It uses a trained Machine Learning model and provides a web interface built with Flask.
+🩺 Diabetes Prediction Web App
+This is a simple web-based machine learning project that predicts whether a person is likely to have diabetes based on medical input parameters. It uses Flask for the backend, Scikit-learn for building the ML model, and Bootstrap for a responsive frontend UI.
 
-🧠 Technologies Used
-Python
+🧰 Tech Stack
+Python – Backend logic and data processing
 
-Flask (for the web framework)
+Flask – Lightweight web framework for serving the app
 
-Scikit-learn (for ML model)
+Scikit-learn – Used to build and train the diabetes prediction model
 
-Pandas & NumPy (for data handling)
+Pandas & NumPy – For data loading, preprocessing, and manipulation
 
-HTML/CSS/Bootstrap (for frontend UI)
+HTML/CSS – For structuring and styling the frontend
+
+Bootstrap – For a responsive and modern UI design
 
 📊 Dataset
-The dataset is taken from the UCI Machine Learning Repository and contains features like:
+The dataset used is the Pima Indians Diabetes Dataset, which includes health-related attributes such as:
 
-Age
+Pregnancies
 
-Gender
-
-Chest Pain Type
+Glucose
 
 Blood Pressure
 
-Cholesterol
+Skin Thickness
 
-Fasting Blood Sugar
+Insulin
 
-Resting ECG
+BMI
 
-Max Heart Rate
+Diabetes Pedigree Function
 
-Exercise-induced Angina
+Age
 
-ST Depression
+The target column indicates whether the person has diabetes (1) or not (0).
 
-etc.
+🚀 Features
+Input form to enter medical data
+
+ML model to predict diabetes outcome
+
+Clear result displayed on a result page
+
+Responsive and clean user interface
+
+Easy to run locally with minimal dependencies
