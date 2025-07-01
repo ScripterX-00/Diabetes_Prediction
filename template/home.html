@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Diabetes Prediction</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #43cea2, #185a9d);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      background-color: #ffffff;
+      padding: 30px 40px;
+      border-radius: 15px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+      max-width: 500px;
+      width: 100%;
+    }
+
+    h2 {
+      text-align: center;
+      color: #185a9d;
+      margin-bottom: 25px;
+    }
+
+    label {
+      font-weight: 600;
+      display: block;
+      margin-top: 10px;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 10px 12px;
+      margin-top: 5px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      transition: border-color 0.3s;
+    }
+
+    input[type="text"]:focus {
+      border-color: #43cea2;
+      outline: none;
+    }
+
+    input[type="submit"] {
+      background: #185a9d;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 8px;
+      width: 100%;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.3s;
+      margin-top: 10px;
+    }
+
+    input[type="submit"]:hover {
+      background: #43cea2;
+    }
+
+    @media screen and (max-width: 500px) {
+      .container {
+        padding: 25px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h2>Diabetes Prediction Form</h2>
+    <form action="/send" method="post" name="send_data">
+      <label>Pregnancies</label>
+      <input type="text" name="Pregnancies" placeholder="Your Pregnancy Count">
+
+      <label>Glucose</label>
+      <input type="text" name="Glucose" placeholder="Your Glucose Levels">
+
+      <label>Blood Pressure</label>
+      <input type="text" name="BloodPressure" placeholder="Your Blood Pressure">
+
+      <label>Skin Thickness</label>
+      <input type="text" name="SkinThickness" placeholder="Skin Thickness">
+
+      <label>Insulin</label>
+      <input type="text" name="Insulin" placeholder="Insulin Levels">
+
+      <label>BMI</label>
+      <input type="text" name="BMI" placeholder="Body Mass Index">
+
+      <label>Diabetes Pedigree Function</label>
+      <input type="text" name="DiabetesPedigreeFunction" placeholder="Pedigree Function">
+
+      <label>Age</label>
+      <input type="text" name="Age" placeholder="Your Age">
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+</body>
+</html>
