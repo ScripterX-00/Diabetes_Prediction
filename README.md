@@ -11,8 +11,7 @@
 The app allows users to:
 - Enter medical details such as glucose level, BMI, age, etc.
 - Predict diabetes using trained ML models.
-- View results instantly on the web interface.  
-- Order herbs online from verified herbal partners *(coming soon!)*  
+- View results instantly on the web interface.   
 - Use a responsive and simple UI. 
 
 
@@ -36,7 +35,6 @@ The app allows users to:
 | **Python Frameworks** | NumPy, Pandas, Matplotlib / Seaborn, Scikit-learn |
 | **Dataset** | PIMA Indians Diabetes Dataset (Kaggle / UCI) |
 | **Deployment** | Render / Railway / Localhost |
-| **Environment** | .env for API keys and secret configuration |
 
 ---
 
