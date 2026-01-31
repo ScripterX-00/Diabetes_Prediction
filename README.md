@@ -176,7 +176,6 @@ Please make sure to include clear commit messages and test your feature before P
 ## 👨‍💻 Author
 
 **Developed by:** Dibyajyoti Jana  
-
 ---
 
 
