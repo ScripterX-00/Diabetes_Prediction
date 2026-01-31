@@ -20,9 +20,9 @@ The app allows users to:
 
 ## 🧩 Key Features
 
-💬 **ML-Based Prediction** – Predicts diabetes using trained Machine Learning models.
-📊 **User Input Form** – Enter patient health parameters
-⚡ **Instant Result** –Shows prediction result in real-time
+- 💬 **ML-Based Prediction** – Predicts diabetes using trained Machine Learning models.
+- 📊 **User Input Form** – Enter patient health parameters
+- ⚡ **Instant Result** –Shows prediction result in real-time
 
 
 ---
@@ -85,7 +85,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-Now visit 👉 http://127.0.0.1:5000 in your browser.
+Now visit 👉 http://127.0.0.1:6000 in your browser.
 
 ---
 
@@ -143,7 +143,7 @@ Join our growing community of herbal enthusiasts and developers!
 
 
 - Model Accuracy: 89%
-- Best Performing Model: RSupport Vector Machine (SVM)
+- Best Performing Model: Support Vector Machine (SVM)
 
 
 ## 🧪 Testing
