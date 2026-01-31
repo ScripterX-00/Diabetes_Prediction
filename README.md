@@ -22,7 +22,7 @@ The app allows users to:
 
 - 💬 **ML-Based Prediction** – Predicts diabetes using trained Machine Learning models.
 - 📊 **User Input Form** – Enter patient health parameters
-- ⚡ **Instant Result** –Shows prediction result in real-time
+- ⚡ **Instant Result** – Shows prediction result in real-time
 
 
 ---
@@ -47,7 +47,7 @@ Diabetes_Prediction/
 │               
 ├── template/               
 │   ├── home.html/
-│   ├── show.html/l
+│   ├── show.html/
 ├── diabetes.csv 
 ├── pima_Nulls.ipynb
 ├── pima_Viz.ipynb 
@@ -178,6 +178,7 @@ Please make sure to include clear commit messages and test your feature before P
 ## 👨‍💻 Author
 
 **Developed by:** Dibyajyoti Jana  
+
 ---
 
 
