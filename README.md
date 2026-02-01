@@ -50,9 +50,8 @@ Diabetes_Prediction/
 ├── pima_Nulls.ipynb
 ├── pima_Viz.ipynb 
 ├── prep_model.ipynb               
-├── requirements.txt      
-├── README.md             # Project documentation
-└── LICENSE               # License (MIT recommended)
+├── requirements.txt                
+└── README.md               # Project documentation
 ```
 
 ---
